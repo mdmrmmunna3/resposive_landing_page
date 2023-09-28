@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pacifico&display=swap');
+/* font-family: 'Black Ops One', cursive;
+font-family: 'Pacifico', cursive; */
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    box-sizing: border-box;
+    /* background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(32, 32, 32) 90.2%); */
+}
+
+.first {
+    font-family: 'Black Ops One', cursive;
+    background: -webkit-linear-gradient(#eee, #33bcdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.last {
+    background: -webkit-linear-gradient(#eee, #33bcdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    position: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.main_menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .main_menu ul li {
+    margin-right: 2px;
+
+} */
+
+.main_menu ul li a {
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+
+.main_menu ul li a:hover,
+.active {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+.main_menu ul li a:focus {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+.icons {
+    color: white;
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+
+#banner {
+    animation: munna 3.5s ease-in-out 0.3s infinite alternate;
+    margin-bottom: 20px;
+}
+
+.banner_overlay {
+    padding: 170px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@keyframes munna {
+    from {
+        /* background-color: brown; */
+        background-image: url(/img/banner3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    to {
+        /* background-color: darkmagenta; */
+        background-image: url(/img/banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+}
+
+.banner_content h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    background: -webkit-linear-gradient(#eee, #33bcdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+.banner_content a {
+    /* background:linear-gradient(#007991, #78ffd6); */
+    background: -webkit-linear-gradient(#eee, #4a4cec);
+    padding: 8px 12px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+
+.banner_content a:hover {
+    color: blue;
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    transition: all linear 0.5s;
+}
+
+.btn_icon {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.contact {
+    margin-left: 15px;
+}
+
+/* banner part end  */
+
+#product {
+    margin-bottom: 40px;
+}
+
+.product_heading,
+.about_heading,
+.service_heading {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    border-radius: 20px;
+    /* background: -webkit-linear-gradient(#eee, #33bcdf); */
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.funny {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+
+
+.funny1 {
+    animation: munna1 0.5s ease-in-out 0.3s infinite alternate;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.funny2 {
+    animation: munna2 0.5s ease-in-out 0.3s infinite alternate;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.funny3 {
+    animation: munna3 0.5s ease-in-out 0.3s infinite alternate;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* animation part  */
+
+@keyframes munna1 {
+    from {
+        background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%)
+    }
+
+    to {
+        background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(35, 184, 102) 91.1%);
+    }
+}
+
+
+@keyframes munna2 {
+    from {
+
+        background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(35, 184, 102) 91.1%);
+    }
+
+    to {
+        background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    }
+}
+
+@keyframes munna3 {
+    from {
+        background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    }
+
+    to {
+        background: linear-gradient(109.6deg, rgb(55, 35, 236) 11.2%, rgb(66, 229, 235) 91.1%);
+    }
+}
+
+/* animation part end  */
+
+.product_main {
+    /* width: 100%; */
+    /* height: 100vh; */
+    display: flex;
+    margin-top: 10px;
+}
+
+.product_first {
+    width: 32%;
+}
+
+.product_second {
+    width: 32%;
+    margin: 0 2%;
+}
+
+.product_third {
+    width: 32%;
+}
+
+.img_width img {
+    width: 100%;
+}
+
+.seeMore {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.seeMore a {
+    color: white;
+    background-color: #33bcdf;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.seeMore a:hover {
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    color: blue;
+}
+
+/* product style end  */
+
+/* about style start  */
+
+#about {
+    margin-bottom: 40px;
+}
+
+.main_about {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 20px;
+}
+
+/* extra work  */
+.clear {
+    clear: both;
+}
+
+/* extra work  */
+
+.about_content {
+    float: left;
+    width: 50%;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.about_content p {
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 25px;
+}
+
+.collection {
+    color: darkorange;
+    font-size: 25px;
+}
+
+.about_titel {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.about_content h3 {
+    margin-bottom: 8px;
+}
+
+.about_img {
+    width: 50%;
+    float: left;
+    /* position: relative; */
+}
+
+.about_img img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.about_overlay {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    /* transform: scale(0);
+    overflow: hidden;
+    transition: all linear 0.7; */
+}
+
+/* .about_img:hover .about_overlay{
+    transform: scale(1);
+    transition: all linear 0.7;
+} */
+
+/* about part end  */
+
+/* service part start  */
+
+#service {
+    margin-bottom: 40px;
+}
+
+.service_heading_content {
+    margin-bottom: 5px;
+}
+
+.service_heading_content p {
+    text-align: justify;
+}
+
+.service_titel {
+    color: darkorange;
+    padding-bottom: 3px
+}
+
+.service_main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.service_card {
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: transform .2s; 
+}
+
+.service_card:hover {
+     transform: scale(1.05);
+}
+
+.service_card img {
+    width: 25%;
+}
+
+.service_card h3 {
+    background: -webkit-linear-gradient(#eee, #2600ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.readMore {
+    margin-top: 15px;
+}
+
+.readMore a {
+    margin-top: 15px;
+    color: white;
+    background-color: #33bcdf;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.readMore a:hover {
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    color: blue;
+}
+
+/* service part end */
+
+/* customer review style start */
+
+.customer_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.cutomer_review{
+    margin: 10px 0;
+}
+
+.customer_img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.customer_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.customer_content p {
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.star_icon {
+    color: gold;
+}
+/* customer review style end */
