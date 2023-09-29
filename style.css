@@ -740,6 +740,11 @@ p {
     margin: 15px 0;
 }
 
+.contact_info {
+    display: flex;
+    align-items: center;
+}
+
 .contact_form form input,
 textarea {
     width: 100%;
@@ -766,9 +771,10 @@ textarea {
 
 .contact_info {
     line-height: 20px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     padding-left: 10px;
     border-radius: 8px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .contact-titel {
@@ -794,11 +800,12 @@ textarea {
 
     .main_menu ul li a {
         /* padding: 5px 10px; */
-        padding: 3px 3px;
+        font-size: 12px ;
+        padding: 4px 4px;
     }
 
     .icons {
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .banner_content h1 {
