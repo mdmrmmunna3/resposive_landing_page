@@ -317,6 +317,9 @@ nav {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    justify-content: center;
+    padding-left: 10px;
 }
 
 .about_content p {
@@ -344,6 +347,9 @@ nav {
     float: left;
     /* position: relative; */
 /* } */
+.about_img {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 
 .about_img img {
     width: 100%;
