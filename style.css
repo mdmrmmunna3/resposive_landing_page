@@ -660,7 +660,7 @@ p {
 }
 
 .form-comtainer {
-    margin: 50px 25%;
+    margin: 30px 20%;
     /* background-image: linear-gradient(
       #02494e, #7ba6c4); */
     background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
@@ -724,3 +724,53 @@ p {
 }
 
 /* multi login style end */
+
+/* multi contact style start  */
+
+.contact_container {
+    padding-top: 80px;
+}
+
+.contact_content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 15px 0;
+}
+
+.contact_form form input, textarea {
+   width: 100%;
+   padding-left: 8px;
+}
+
+.contact_form form input {
+    padding: 8px 0;
+    padding-left: 8px;
+}
+
+.submit_btn {
+    background-color: #33bcdf;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.submit_btn:hover{
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    color: blue;
+}
+
+.contact_info {
+    line-height: 20px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+.contact-titel{
+    color: darkorange;
+    margin: 10px 0;
+}
+
+/* multi contact style end */
